@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "489090893543",
+    "project_id": "quiz-paran",
+    "storage_bucket": "quiz-paran.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489090893543:android:387ff0fec3167458cf0442",
+        "android_client_info": {
+          "package_name": "com.sirismedia.quizparan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489090893543-1100skpul6449gl2qpg6ng5kmrh31s1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sirismedia.quizparan",
+            "certificate_hash": "c889d2672ae1de102db9cc755c6e8de0a6e865b0"
+          }
+        },
+        {
+          "client_id": "489090893543-4kq3kq315ce5o9kj0tik6hdrsur1ecna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sirismedia.quizparan",
+            "certificate_hash": "08a2386b759a7ab8dd324d0aebe203491e07380e"
+          }
+        },
+        {
+          "client_id": "489090893543-ivk1c3vhd8mger590guhd3gthnmopsre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn-_1DjB6RhHy6hOztZou8gzT2fKlUf6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489090893543-ivk1c3vhd8mger590guhd3gthnmopsre.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "489090893543-h05b8gi68of18og4bb4dsgmfknkj95i6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sirismedia.quizparan"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
