@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tex/flutter_tex.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
-import 'package:quizparan/ui/widgets/circular_progress_container.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
+import 'package:quizapp/ui/widgets/circular_progress_container.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class QuestionContainer extends StatelessWidget {
   const QuestionContainer({

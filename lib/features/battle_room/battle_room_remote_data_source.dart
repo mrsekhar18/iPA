@@ -5,12 +5,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/battle_room/battle_room_exception.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
-import 'package:quizparan/utils/api_utils.dart';
-import 'package:quizparan/utils/internet_connectivity.dart';
 import 'package:http/http.dart' as http;
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/battle_room/battle_room_exception.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
+import 'package:quizapp/utils/api_utils.dart';
+import 'package:quizapp/utils/internet_connectivity.dart';
 
 class BattleRoomRemoteDataSource {
   final FirebaseFirestore _firebaseFirestore = FirebaseFirestore.instance;

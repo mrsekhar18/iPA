@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/utils/extensions.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class AppUnderMaintenanceDialog extends StatelessWidget {
   const AppUnderMaintenanceDialog({super.key});

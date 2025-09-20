@@ -2,12 +2,12 @@ import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/battle_room/battle_room_exception.dart';
-import 'package:quizparan/features/battle_room/battle_room_remote_data_source.dart';
-import 'package:quizparan/features/battle_room/models/battle_room.dart';
-import 'package:quizparan/features/battle_room/models/message.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/battle_room/battle_room_exception.dart';
+import 'package:quizapp/features/battle_room/battle_room_remote_data_source.dart';
+import 'package:quizapp/features/battle_room/models/battle_room.dart';
+import 'package:quizapp/features/battle_room/models/message.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
 
 class BattleRoomRepository {
   factory BattleRoomRepository() {

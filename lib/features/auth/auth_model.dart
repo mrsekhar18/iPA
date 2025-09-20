@@ -1,4 +1,4 @@
-import 'package:quizparan/features/auth/cubits/auth_cubit.dart';
+import 'package:quizapp/features/auth/cubits/auth_cubit.dart';
 
 class AuthModel {
   AuthModel({

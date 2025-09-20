@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/profile_management/profile_management_repository.dart';
+import 'package:quizapp/features/profile_management/profile_management_repository.dart';
 
 @immutable
 abstract class UploadProfileState {}

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/navigation/route_args.dart';
+import 'package:quizapp/core/navigation/route_args.dart';
 
 /// Navigation utilities with type-safe argument handling.
 extension NavigationExtension on BuildContext {

@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/ui/screens/app_settings_screen.dart';
-import 'package:quizparan/ui/widgets/custom_appbar.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/ui/screens/app_settings_screen.dart';
+import 'package:quizapp/ui/widgets/custom_appbar.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class AboutAppScreen extends StatelessWidget {
   const AboutAppScreen({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/core/constants/fonts.dart';
-import 'package:quizparan/ui/widgets/circular_timer_container.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/core/constants/fonts.dart';
+import 'package:quizapp/ui/widgets/circular_timer_container.dart';
 
 const timerHeightAndWidthPercentage = 0.14;
 

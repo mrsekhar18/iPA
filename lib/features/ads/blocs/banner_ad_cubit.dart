@@ -4,9 +4,9 @@ import 'dart:math' show min;
 
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
 import 'package:unity_ads_plugin/unity_ads_plugin.dart';
 
 enum BannerAdState { initial, loading, loaded, failure }

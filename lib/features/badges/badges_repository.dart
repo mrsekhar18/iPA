@@ -1,6 +1,6 @@
-import 'package:quizparan/features/badges/badge.dart';
-import 'package:quizparan/features/badges/badges_exception.dart';
-import 'package:quizparan/features/badges/badges_remote_data_source.dart';
+import 'package:quizapp/features/badges/badge.dart';
+import 'package:quizapp/features/badges/badges_exception.dart';
+import 'package:quizapp/features/badges/badges_remote_data_source.dart';
 
 class BadgesRepository {
   factory BadgesRepository() {

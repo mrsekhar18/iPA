@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/quiz/models/guess_the_word_question.dart';
-import 'package:quizparan/features/quiz/quiz_repository.dart';
-import 'package:quizparan/features/quiz/utils/quiz_utils.dart';
+import 'package:quizapp/features/quiz/models/guess_the_word_question.dart';
+import 'package:quizapp/features/quiz/quiz_repository.dart';
+import 'package:quizapp/features/quiz/utils/quiz_utils.dart';
 
 abstract class GuessTheWordQuizState {}
 

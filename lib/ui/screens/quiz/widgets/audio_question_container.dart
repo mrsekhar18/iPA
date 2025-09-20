@@ -2,14 +2,14 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/features/system_config/model/answer_mode.dart';
-import 'package:quizparan/ui/widgets/option_container.dart';
-import 'package:quizparan/utils/answer_encryption.dart';
-import 'package:quizparan/utils/extensions.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/system_config/model/answer_mode.dart';
+import 'package:quizapp/ui/widgets/option_container.dart';
+import 'package:quizapp/utils/answer_encryption.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class AudioQuestionContainer extends StatefulWidget {
   const AudioQuestionContainer({

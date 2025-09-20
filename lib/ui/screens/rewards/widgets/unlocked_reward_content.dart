@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/badges/badge.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/badges/badge.dart';
 
 class UnlockedRewardContent extends StatelessWidget {
   const UnlockedRewardContent({

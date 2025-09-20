@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/profile_management/profile_management_exception.dart';
-import 'package:quizparan/utils/api_utils.dart';
 import 'package:http/http.dart' as http;
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/profile_management/profile_management_exception.dart';
+import 'package:quizapp/utils/api_utils.dart';
 
 class ProfileManagementRemoteDataSource {
   Future<Map<String, dynamic>> getUserDetailsById() async {

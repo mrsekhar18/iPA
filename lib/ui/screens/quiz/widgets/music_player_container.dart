@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/music_player/music_player_cubit.dart';
-import 'package:quizparan/utils/extensions.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:quizapp/features/music_player/music_player_cubit.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class MusicPlayerContainer extends StatefulWidget {
   const MusicPlayerContainer({

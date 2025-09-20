@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/battle_room/battle_room_repository.dart';
-import 'package:quizparan/features/battle_room/models/message.dart';
+import 'package:quizapp/features/battle_room/battle_room_repository.dart';
+import 'package:quizapp/features/battle_room/models/message.dart';
 
 abstract class MessageState {}
 

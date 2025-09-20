@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/coin_history/coin_history_repository.dart';
-import 'package:quizparan/features/coin_history/models/coin_history.dart';
+import 'package:quizapp/features/coin_history/coin_history_repository.dart';
+import 'package:quizapp/features/coin_history/models/coin_history.dart';
 
 abstract class CoinHistoryState {}
 

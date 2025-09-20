@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:quizparan/core/constants/assets_constants.dart';
-import 'package:quizparan/features/badges/badge.dart';
+import 'package:quizapp/core/constants/assets_constants.dart';
+import 'package:quizapp/features/badges/badge.dart';
 
 class BadgesIconContainer extends StatelessWidget {
   const BadgesIconContainer({

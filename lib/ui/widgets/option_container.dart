@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/config/colors.dart';
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/quiz/models/answer_option.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/features/settings/settings_cubit.dart';
-import 'package:quizparan/features/system_config/model/answer_mode.dart';
-import 'package:quizparan/utils/ui_utils.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:quizapp/core/config/colors.dart';
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/quiz/models/answer_option.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/settings/settings_cubit.dart';
+import 'package:quizapp/features/system_config/model/answer_mode.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class OptionContainer extends StatefulWidget {
   const OptionContainer({

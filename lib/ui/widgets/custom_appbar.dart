@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/constants/fonts.dart';
-import 'package:quizparan/ui/widgets/custom_back_button.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizapp/core/constants/fonts.dart';
+import 'package:quizapp/ui/widgets/custom_back_button.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class QAppBar extends StatelessWidget implements PreferredSizeWidget {
   const QAppBar({

@@ -4,12 +4,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/settings/settings_cubit.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
-import 'package:quizparan/ui/widgets/error_container.dart';
-import 'package:quizparan/utils/gdpr_helper.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/settings/settings_cubit.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
+import 'package:quizapp/ui/widgets/error_container.dart';
+import 'package:quizapp/utils/gdpr_helper.dart';
 import 'package:unity_ads_plugin/unity_ads_plugin.dart';
 
 class SplashScreen extends StatefulWidget {

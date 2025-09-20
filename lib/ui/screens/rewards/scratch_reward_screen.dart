@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/badges/badge.dart';
-import 'package:quizparan/features/badges/cubits/badges_cubit.dart';
-import 'package:quizparan/features/profile_management/cubits/update_score_and_coins_cubit.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/ui/screens/rewards/widgets/unlocked_reward_content.dart';
-import 'package:quizparan/utils/extensions.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/badges/badge.dart';
+import 'package:quizapp/features/badges/cubits/badges_cubit.dart';
+import 'package:quizapp/features/profile_management/cubits/update_score_and_coins_cubit.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/ui/screens/rewards/widgets/unlocked_reward_content.dart';
+import 'package:quizapp/utils/extensions.dart';
 import 'package:scratcher/widgets.dart';
 
 class ScratchRewardScreen extends StatefulWidget {

@@ -1,10 +1,10 @@
-import 'package:quizparan/features/exam/exam_exception.dart';
-import 'package:quizparan/features/exam/exam_local_data_source.dart';
-import 'package:quizparan/features/exam/exam_remote_data_source.dart';
-import 'package:quizparan/features/exam/models/exam.dart';
-import 'package:quizparan/features/exam/models/exam_result.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
-import 'package:quizparan/utils/datetime_utils.dart';
+import 'package:quizapp/features/exam/exam_exception.dart';
+import 'package:quizapp/features/exam/exam_local_data_source.dart';
+import 'package:quizapp/features/exam/exam_remote_data_source.dart';
+import 'package:quizapp/features/exam/models/exam.dart';
+import 'package:quizapp/features/exam/models/exam_result.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
+import 'package:quizapp/utils/datetime_utils.dart';
 
 class ExamRepository {
   factory ExamRepository() {

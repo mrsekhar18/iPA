@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/ads/blocs/banner_ad_cubit.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:quizapp/features/ads/blocs/banner_ad_cubit.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
 
 class BannerAdContainer extends StatefulWidget {
   const BannerAdContainer({super.key});

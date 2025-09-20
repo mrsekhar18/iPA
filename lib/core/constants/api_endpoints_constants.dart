@@ -1,4 +1,4 @@
-import 'package:quizparan/core/config/config.dart';
+import 'package:quizapp/core/config/config.dart';
 
 const _api = '$panelUrl/Api';
 

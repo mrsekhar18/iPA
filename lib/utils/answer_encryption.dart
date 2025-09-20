@@ -1,5 +1,5 @@
 import 'package:encrypt/encrypt.dart' as enc;
-import 'package:quizparan/features/quiz/models/correct_answer.dart';
+import 'package:quizapp/features/quiz/models/correct_answer.dart';
 
 class AnswerEncryption {
   static String decryptCorrectAnswer({

@@ -1,5 +1,5 @@
-import 'package:quizparan/features/system_config/model/answer_mode.dart';
-import 'package:quizparan/features/system_config/model/room_code_char_type.dart';
+import 'package:quizapp/features/system_config/model/answer_mode.dart';
+import 'package:quizapp/features/system_config/model/room_code_char_type.dart';
 
 class SystemConfigModel {
   SystemConfigModel({

@@ -1,6 +1,6 @@
-import 'package:quizparan/features/quiz/models/answer_option.dart';
-import 'package:quizparan/features/quiz/models/correct_answer.dart';
-import 'package:quizparan/features/quiz/multi_match/models/multi_match_answer_type_enum.dart';
+import 'package:quizapp/features/quiz/models/answer_option.dart';
+import 'package:quizapp/features/quiz/models/correct_answer.dart';
+import 'package:quizapp/features/quiz/multi_match/models/multi_match_answer_type_enum.dart';
 
 final class MultiMatchQuestion {
   const MultiMatchQuestion({

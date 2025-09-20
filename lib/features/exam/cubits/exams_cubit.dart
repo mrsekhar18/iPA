@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/exam/exam_repository.dart';
-import 'package:quizparan/features/exam/models/exam.dart';
+import 'package:quizapp/features/exam/exam_repository.dart';
+import 'package:quizapp/features/exam/models/exam.dart';
 
 abstract class ExamsState {}
 

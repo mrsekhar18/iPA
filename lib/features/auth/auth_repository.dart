@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/auth/auth_exception.dart';
-import 'package:quizparan/features/auth/auth_local_data_source.dart';
-import 'package:quizparan/features/auth/auth_remote_data_source.dart';
-import 'package:quizparan/features/auth/cubits/auth_cubit.dart';
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/auth/auth_exception.dart';
+import 'package:quizapp/features/auth/auth_local_data_source.dart';
+import 'package:quizapp/features/auth/auth_remote_data_source.dart';
+import 'package:quizapp/features/auth/cubits/auth_cubit.dart';
 
 class AuthRepository {
   factory AuthRepository() {

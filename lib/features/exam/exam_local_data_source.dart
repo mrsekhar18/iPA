@@ -1,5 +1,5 @@
-import 'package:quizparan/core/constants/constants.dart';
 import 'package:hive_flutter/adapters.dart';
+import 'package:quizapp/core/constants/constants.dart';
 
 class ExamLocalDataSource {
   Box<dynamic> get _box => Hive.box<dynamic>(examBox);

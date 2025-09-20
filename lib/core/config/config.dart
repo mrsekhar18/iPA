@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/features/wallet/models/payout_method.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizapp/features/wallet/models/payout_method.dart';
 
 export 'colors.dart';
 
 /// === Config ===
-const appName = 'Quiz Paran';
-const packageName = 'com.sirismedia.quizparan';
+const appName = 'QuiziHi';
+const packageName = 'com.paranpara.quizapp';
 
 /// Add your panel url here
 // NOTE: make sure to not add '/' at the end of url
 // NOTE: make sure to check if admin panel is http or https
-const panelUrl = 'https://elitequiz.sirismedia.com';
+const panelUrl = 'https://app.quizihi.com';
 
 /// === Branding ===
 ///
@@ -29,9 +29,9 @@ final TextTheme kTextTheme = GoogleFonts.nunitoTextTheme();
 /// === Assets ===
 
 // if you want to change the logo format like png, jpg, etc.
-const kAppLogo = 'app_logo.svg';
-const kSplashLogo = 'splash_logo.svg';
-const kOrgLogo = 'org_logo.svg';
+const kAppLogo = 'app_logo.png';
+const kSplashLogo = 'splash_logo.png';
+const kOrgLogo = 'org_logo.png';
 const kPlaceholder = 'placeholder.png';
 // make it false, if you don't want to show org logo in the splash screen
 const kShowOrgLogo = true;

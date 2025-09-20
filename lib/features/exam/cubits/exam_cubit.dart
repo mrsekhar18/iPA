@@ -1,9 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/exam/exam_repository.dart';
-import 'package:quizparan/features/exam/models/exam.dart';
-import 'package:quizparan/features/exam/models/exam_result.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
-import 'package:quizparan/utils/answer_encryption.dart';
+import 'package:quizapp/features/exam/exam_repository.dart';
+import 'package:quizapp/features/exam/models/exam.dart';
+import 'package:quizapp/features/exam/models/exam_result.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
+import 'package:quizapp/utils/answer_encryption.dart';
 
 abstract class ExamState {}
 

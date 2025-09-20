@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/auth/cubits/auth_cubit.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
-import 'package:quizparan/ui/screens/home/widgets/quiz_grid_card.dart';
-import 'package:quizparan/ui/screens/quiz/category_screen.dart';
-import 'package:quizparan/ui/widgets/all.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/auth/cubits/auth_cubit.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
+import 'package:quizapp/ui/screens/home/widgets/quiz_grid_card.dart';
+import 'package:quizapp/ui/screens/quiz/category_screen.dart';
+import 'package:quizapp/ui/widgets/all.dart';
 
 class PlayZoneTabScreen extends StatefulWidget {
   const PlayZoneTabScreen({super.key});

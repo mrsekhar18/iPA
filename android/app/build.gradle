@@ -38,8 +38,8 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.sirismedia.quizparan"
-    compileSdkVersion 35
+    namespace "com.paranpara.quizapp"
+    compileSdk = 36
 
     compileOptions {
         coreLibraryDesugaringEnabled true
@@ -57,7 +57,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.sirismedia.quizparan"
+        applicationId "com.paranpara.quizapp"
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion 35
         ndkVersion "26.1.10909125"
@@ -78,7 +78,7 @@ android {
 
     buildTypes {
         release {
-
+//            signingConfig signingConfigs.debug
             signingConfig signingConfigs.release
             minifyEnabled true // Add these lines
             shrinkResources true // Add these lines

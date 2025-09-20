@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/constants/fonts.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizapp/core/constants/fonts.dart';
 
 class TextCircularTimer extends StatelessWidget {
   const TextCircularTimer({

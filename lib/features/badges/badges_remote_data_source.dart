@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/badges/badges_exception.dart';
-import 'package:quizparan/utils/api_utils.dart';
 import 'package:http/http.dart' as http;
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/badges/badges_exception.dart';
+import 'package:quizapp/utils/api_utils.dart';
 
 class BadgesRemoteDataSource {
   Future<List<Map<String, dynamic>>> getBadges() async {

@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:quizparan/features/quiz/models/answer_option.dart';
+import 'package:quizapp/features/quiz/models/answer_option.dart';
 
 class LifeLineOptions {
   static int getRandomAnswerIndex(int length, int correctAnswerIndex) {

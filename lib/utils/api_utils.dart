@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:quizparan/features/auth/auth_local_data_source.dart';
-import 'package:quizparan/features/auth/auth_remote_data_source.dart';
+import 'package:quizapp/features/auth/auth_local_data_source.dart';
+import 'package:quizapp/features/auth/auth_remote_data_source.dart';
 
 class ApiUtils {
   static Future<Map<String, String>> getHeaders() async {

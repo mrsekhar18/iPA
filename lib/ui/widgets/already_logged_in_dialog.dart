@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/auth/cubits/auth_cubit.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/utils/extensions.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/auth/cubits/auth_cubit.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 Future<void> showAlreadyLoggedInDialog(BuildContext context) {
   context.read<AuthCubit>().logoutOrDeleteAccount();

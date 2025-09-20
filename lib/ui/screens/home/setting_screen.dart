@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/settings/settings_cubit.dart';
-import 'package:quizparan/ui/screens/menu/widgets/language_selector_sheet.dart';
-import 'package:quizparan/ui/widgets/custom_appbar.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/gdpr_helper.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/settings/settings_cubit.dart';
+import 'package:quizapp/ui/screens/menu/widgets/language_selector_sheet.dart';
+import 'package:quizapp/ui/widgets/custom_appbar.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/gdpr_helper.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class SettingScreen extends StatefulWidget {
   const SettingScreen({super.key});

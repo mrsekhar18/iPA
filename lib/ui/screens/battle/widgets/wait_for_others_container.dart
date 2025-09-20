@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/ui/widgets/question_background_card.dart';
-import 'package:quizparan/utils/extensions.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/ui/widgets/question_background_card.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class WaitForOthersContainer extends StatelessWidget {
   const WaitForOthersContainer({super.key});

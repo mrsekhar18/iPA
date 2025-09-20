@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizapp/core/core.dart';
 
 class ExitGameDialog extends StatelessWidget {
   const ExitGameDialog({super.key, this.onTapYes});

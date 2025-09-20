@@ -1,7 +1,7 @@
-import 'package:quizparan/core/config/config.dart';
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/system_config/model/system_language.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:quizapp/core/config/config.dart';
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/system_config/model/system_language.dart';
 
 class SettingsLocalDataSource {
   Box<dynamic> get _box => Hive.box<dynamic>(settingsBox);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
+import 'package:quizapp/core/core.dart';
 
 class CustomSwitch extends StatelessWidget {
   const CustomSwitch({required this.value, super.key, this.onChanged});
@@ -20,7 +20,7 @@ class CustomSwitch extends StatelessWidget {
         alignment: AlignmentDirectional.center,
         child: Switch(
           materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-          activeColor: context.primaryColor,
+          activeThumbColor: context.primaryColor,
           inactiveTrackColor: context.primaryTextColor.withValues(alpha: .3),
           inactiveThumbColor: context.primaryTextColor.withValues(alpha: .8),
           value: value,

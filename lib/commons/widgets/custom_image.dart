@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:quizparan/core/constants/assets_constants.dart';
+import 'package:quizapp/core/constants/assets_constants.dart';
 
 class QImage extends StatelessWidget {
   const QImage({

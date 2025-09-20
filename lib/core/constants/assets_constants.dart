@@ -1,4 +1,4 @@
-import 'package:quizparan/core/config/config.dart';
+import 'package:quizapp/core/config/config.dart';
 
 abstract class Assets {
   static const _animations = 'assets/animations';

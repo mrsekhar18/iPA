@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/settings/settings_repository.dart';
-import 'package:quizparan/features/system_config/model/system_language.dart';
+import 'package:quizapp/features/settings/settings_repository.dart';
+import 'package:quizapp/features/system_config/model/system_language.dart';
 
 class AppLocalizationState {
   const AppLocalizationState(this.language, this.systemLanguages);

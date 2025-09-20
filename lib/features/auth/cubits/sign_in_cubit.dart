@@ -1,8 +1,8 @@
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/auth/auth_repository.dart';
-import 'package:quizparan/features/auth/cubits/auth_cubit.dart';
+import 'package:quizapp/features/auth/auth_repository.dart';
+import 'package:quizapp/features/auth/cubits/auth_cubit.dart';
 
 sealed class SignInState {
   const SignInState();

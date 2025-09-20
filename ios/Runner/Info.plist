@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Quiz Paran</string>
+	<string>QuiziHi</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -27,14 +27,14 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.489090893543-h05b8gi68of18og4bb4dsgmfknkj95i6</string>
+				<string>com.googleusercontent.apps.143784664495-53gvrn2gtn3hlg5jv3811kuoik06hgdn</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<string>ca-app-pub-2352079557980947~2117118480</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>https</string>

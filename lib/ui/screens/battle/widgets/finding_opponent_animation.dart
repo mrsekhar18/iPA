@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/commons/widgets/custom_image.dart';
-import 'package:quizparan/core/constants/assets_constants.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
-import 'package:quizparan/utils/extensions.dart';
+import 'package:quizapp/commons/widgets/custom_image.dart';
+import 'package:quizapp/core/constants/assets_constants.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class FindingOpponentAnimation extends StatefulWidget {
   const FindingOpponentAnimation({

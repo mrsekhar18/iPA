@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/wallet/models/payment_request.dart';
-import 'package:quizparan/features/wallet/wallet_repository.dart';
+import 'package:quizapp/features/wallet/models/payment_request.dart';
+import 'package:quizapp/features/wallet/wallet_repository.dart';
 
 abstract class TransactionsState {}
 

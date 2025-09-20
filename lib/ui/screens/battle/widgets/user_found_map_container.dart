@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/constants/assets_constants.dart';
+import 'package:quizapp/core/constants/assets_constants.dart';
 
 class UserFoundMapContainer extends StatefulWidget {
   const UserFoundMapContainer({super.key});

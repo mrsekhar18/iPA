@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/auth/cubits/auth_cubit.dart';
-import 'package:quizparan/features/badges/cubits/badges_cubit.dart';
-import 'package:quizparan/features/bookmark/cubits/audio_question_bookmark_cubit.dart';
-import 'package:quizparan/features/bookmark/cubits/bookmark_cubit.dart';
-import 'package:quizparan/features/bookmark/cubits/guess_the_word_bookmark_cubit.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/auth/cubits/auth_cubit.dart';
+import 'package:quizapp/features/badges/cubits/badges_cubit.dart';
+import 'package:quizapp/features/bookmark/cubits/audio_question_bookmark_cubit.dart';
+import 'package:quizapp/features/bookmark/cubits/bookmark_cubit.dart';
+import 'package:quizapp/features/bookmark/cubits/guess_the_word_bookmark_cubit.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 void showLogoutDialog(BuildContext context) {
   showDialog<void>(

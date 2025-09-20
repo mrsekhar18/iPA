@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/auth/auth_model.dart';
-import 'package:quizparan/features/auth/auth_repository.dart';
+import 'package:quizapp/features/auth/auth_model.dart';
+import 'package:quizapp/features/auth/auth_repository.dart';
 
 //authentication provider
 enum AuthProviders { gmail, email, mobile, apple }

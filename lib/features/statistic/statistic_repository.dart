@@ -1,6 +1,6 @@
-import 'package:quizparan/features/statistic/models/statistic_model.dart';
-import 'package:quizparan/features/statistic/statistic_exception.dart';
-import 'package:quizparan/features/statistic/statistic_remote_data_source.dart';
+import 'package:quizapp/features/statistic/models/statistic_model.dart';
+import 'package:quizapp/features/statistic/statistic_exception.dart';
+import 'package:quizapp/features/statistic/statistic_remote_data_source.dart';
 
 class StatisticRepository {
   factory StatisticRepository() {

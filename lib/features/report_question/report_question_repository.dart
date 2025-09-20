@@ -1,6 +1,6 @@
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/features/report_question/report_question_exception.dart';
-import 'package:quizparan/features/report_question/report_question_remote_data_source.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/report_question/report_question_exception.dart';
+import 'package:quizapp/features/report_question/report_question_remote_data_source.dart';
 
 class ReportQuestionRepository {
   factory ReportQuestionRepository() {

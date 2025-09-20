@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_cached_pdfview/flutter_cached_pdfview.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/quiz/models/comprehension.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/ui/widgets/custom_appbar.dart';
-import 'package:quizparan/ui/widgets/custom_rounded_button.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/quiz/models/comprehension.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/ui/widgets/custom_appbar.dart';
+import 'package:quizapp/ui/widgets/custom_rounded_button.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class FunAndLearnScreen extends StatefulWidget {

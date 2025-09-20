@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/quiz/multi_match/models/multi_match_question_model.dart';
-import 'package:quizparan/features/quiz/quiz_exception.dart';
-import 'package:quizparan/utils/api_utils.dart';
 import 'package:http/http.dart' as http;
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/quiz/multi_match/models/multi_match_question_model.dart';
+import 'package:quizapp/features/quiz/quiz_exception.dart';
+import 'package:quizapp/utils/api_utils.dart';
 
 final class MultiMatchRepository {
   Future<List<MultiMatchQuestion>> getMultiMatchQuestions({

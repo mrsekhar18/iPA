@@ -1,7 +1,7 @@
-import 'package:quizparan/features/bookmark/bookmark_exception.dart';
-import 'package:quizparan/features/bookmark/bookmark_remote_data_source.dart';
-import 'package:quizparan/features/quiz/models/guess_the_word_question.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
+import 'package:quizapp/features/bookmark/bookmark_exception.dart';
+import 'package:quizapp/features/bookmark/bookmark_remote_data_source.dart';
+import 'package:quizapp/features/quiz/models/guess_the_word_question.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
 
 class BookmarkRepository {
   factory BookmarkRepository() {

@@ -2,12 +2,12 @@
 import 'dart:io';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/features/system_config/model/answer_mode.dart';
-import 'package:quizparan/features/system_config/model/room_code_char_type.dart';
-import 'package:quizparan/features/system_config/model/supported_question_language.dart';
-import 'package:quizparan/features/system_config/model/system_config_model.dart';
-import 'package:quizparan/features/system_config/system_config_repository.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/system_config/model/answer_mode.dart';
+import 'package:quizapp/features/system_config/model/room_code_char_type.dart';
+import 'package:quizapp/features/system_config/model/supported_question_language.dart';
+import 'package:quizapp/features/system_config/model/system_config_model.dart';
+import 'package:quizapp/features/system_config/system_config_repository.dart';
 
 abstract class SystemConfigState {}
 

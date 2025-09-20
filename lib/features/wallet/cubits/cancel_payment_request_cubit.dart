@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/wallet/wallet_repository.dart';
+import 'package:quizapp/features/wallet/wallet_repository.dart';
 
 enum CancelPaymentStatus { initial, loading, success, failure }
 

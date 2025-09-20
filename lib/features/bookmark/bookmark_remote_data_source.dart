@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/bookmark/bookmark_exception.dart';
-import 'package:quizparan/utils/api_utils.dart';
 import 'package:http/http.dart' as http;
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/bookmark/bookmark_exception.dart';
+import 'package:quizapp/utils/api_utils.dart';
 
 class BookmarkRemoteDataSource {
   Future<List<Map<String, dynamic>>> getBookmark(String type) async {

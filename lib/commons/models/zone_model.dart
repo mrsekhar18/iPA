@@ -1,4 +1,4 @@
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
 
 /// Represents a single quiz, such as daily quiz, fun and learn, or guess the word.
 ///

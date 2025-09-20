@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:quizparan/core/constants/error_message_keys.dart';
-import 'package:quizparan/features/profile_management/models/user_profile.dart';
-import 'package:quizparan/features/profile_management/profile_management_exception.dart';
-import 'package:quizparan/features/profile_management/profile_management_local_data_source.dart';
-import 'package:quizparan/features/profile_management/profile_management_remote_data_source.dart';
+import 'package:quizapp/core/constants/error_message_keys.dart';
+import 'package:quizapp/features/profile_management/models/user_profile.dart';
+import 'package:quizapp/features/profile_management/profile_management_exception.dart';
+import 'package:quizapp/features/profile_management/profile_management_local_data_source.dart';
+import 'package:quizapp/features/profile_management/profile_management_remote_data_source.dart';
 
 class ProfileManagementRepository {
   factory ProfileManagementRepository() {

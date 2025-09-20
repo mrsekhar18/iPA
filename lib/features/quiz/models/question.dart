@@ -1,5 +1,5 @@
-import 'package:quizparan/features/quiz/models/answer_option.dart';
-import 'package:quizparan/features/quiz/models/correct_answer.dart';
+import 'package:quizapp/features/quiz/models/answer_option.dart';
+import 'package:quizapp/features/quiz/models/correct_answer.dart';
 
 class Question {
   Question({

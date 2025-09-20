@@ -1,18 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/badges/badge.dart';
-import 'package:quizparan/features/badges/cubits/badges_cubit.dart';
-import 'package:quizparan/features/profile_management/cubits/update_score_and_coins_cubit.dart';
-import 'package:quizparan/features/profile_management/profile_management_repository.dart';
-import 'package:quizparan/ui/screens/rewards/scratch_reward_screen.dart';
-import 'package:quizparan/ui/screens/rewards/widgets/unlocked_reward_content.dart';
-import 'package:quizparan/ui/widgets/circular_progress_container.dart';
-import 'package:quizparan/ui/widgets/custom_back_button.dart';
-import 'package:quizparan/ui/widgets/error_container.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/badges/badge.dart';
+import 'package:quizapp/features/badges/cubits/badges_cubit.dart';
+import 'package:quizapp/features/profile_management/cubits/update_score_and_coins_cubit.dart';
+import 'package:quizapp/features/profile_management/profile_management_repository.dart';
+import 'package:quizapp/ui/screens/rewards/scratch_reward_screen.dart';
+import 'package:quizapp/ui/screens/rewards/widgets/unlocked_reward_content.dart';
+import 'package:quizapp/ui/widgets/circular_progress_container.dart';
+import 'package:quizapp/ui/widgets/custom_back_button.dart';
+import 'package:quizapp/ui/widgets/error_container.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class RewardsScreen extends StatefulWidget {
   const RewardsScreen({super.key});

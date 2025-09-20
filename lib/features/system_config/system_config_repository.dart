@@ -1,12 +1,12 @@
 import 'dart:developer';
 
 import 'package:flutter/services.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/system_config/model/supported_question_language.dart';
-import 'package:quizparan/features/system_config/model/system_config_model.dart';
-import 'package:quizparan/features/system_config/model/system_language.dart';
-import 'package:quizparan/features/system_config/system_config_exception.dart';
-import 'package:quizparan/features/system_config/system_config_remote_data_source.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/system_config/model/supported_question_language.dart';
+import 'package:quizapp/features/system_config/model/system_config_model.dart';
+import 'package:quizapp/features/system_config/model/system_language.dart';
+import 'package:quizapp/features/system_config/system_config_exception.dart';
+import 'package:quizapp/features/system_config/system_config_remote_data_source.dart';
 
 class SystemConfigRepository {
   factory SystemConfigRepository() {

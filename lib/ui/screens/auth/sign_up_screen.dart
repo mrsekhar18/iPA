@@ -1,18 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/auth/auth_repository.dart';
-import 'package:quizparan/features/auth/cubits/auth_cubit.dart';
-import 'package:quizparan/features/auth/cubits/sign_up_cubit.dart';
-import 'package:quizparan/ui/screens/auth/widgets/app_logo.dart';
-import 'package:quizparan/ui/screens/auth/widgets/email_textfield.dart';
-import 'package:quizparan/ui/screens/auth/widgets/pswd_textfield.dart';
-import 'package:quizparan/ui/screens/auth/widgets/terms_and_condition.dart';
-import 'package:quizparan/ui/widgets/circular_progress_container.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/auth/auth_repository.dart';
+import 'package:quizapp/features/auth/cubits/auth_cubit.dart';
+import 'package:quizapp/features/auth/cubits/sign_up_cubit.dart';
+import 'package:quizapp/ui/screens/auth/widgets/app_logo.dart';
+import 'package:quizapp/ui/screens/auth/widgets/email_textfield.dart';
+import 'package:quizapp/ui/screens/auth/widgets/pswd_textfield.dart';
+import 'package:quizapp/ui/screens/auth/widgets/terms_and_condition.dart';
+import 'package:quizapp/ui/widgets/circular_progress_container.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});

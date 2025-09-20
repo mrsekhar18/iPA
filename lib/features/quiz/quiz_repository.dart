@@ -1,15 +1,15 @@
-import 'package:quizparan/features/quiz/models/category.dart';
-import 'package:quizparan/features/quiz/models/comprehension.dart';
-import 'package:quizparan/features/quiz/models/contest.dart';
-import 'package:quizparan/features/quiz/models/contest_leaderboard.dart';
-import 'package:quizparan/features/quiz/models/guess_the_word_question.dart';
-import 'package:quizparan/features/quiz/models/leaderboard_monthly.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/features/quiz/models/subcategory.dart';
-import 'package:quizparan/features/quiz/quiz_exception.dart';
-import 'package:quizparan/features/quiz/quiz_remote_data_source.dart';
-import 'package:quizparan/utils/datetime_utils.dart';
+import 'package:quizapp/features/quiz/models/category.dart';
+import 'package:quizapp/features/quiz/models/comprehension.dart';
+import 'package:quizapp/features/quiz/models/contest.dart';
+import 'package:quizapp/features/quiz/models/contest_leaderboard.dart';
+import 'package:quizapp/features/quiz/models/guess_the_word_question.dart';
+import 'package:quizapp/features/quiz/models/leaderboard_monthly.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/quiz/models/subcategory.dart';
+import 'package:quizapp/features/quiz/quiz_exception.dart';
+import 'package:quizapp/features/quiz/quiz_remote_data_source.dart';
+import 'package:quizapp/utils/datetime_utils.dart';
 
 class QuizRepository {
   factory QuizRepository() {

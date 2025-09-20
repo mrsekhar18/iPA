@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
 import 'package:intl/intl.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class UserAchievements extends StatelessWidget {
   const UserAchievements({

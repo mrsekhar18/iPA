@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/core/constants/fonts.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/core/constants/fonts.dart';
 
 class QuizGridCard extends StatelessWidget {
   const QuizGridCard({

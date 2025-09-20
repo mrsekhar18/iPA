@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/ui/screens/auth/otp_screen.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/ui/screens/auth/otp_screen.dart';
 
 class ResendOtpTimerContainer extends StatefulWidget {
   const ResendOtpTimerContainer({

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/profile_management/cubits/update_score_and_coins_cubit.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/features/profile_management/profile_management_repository.dart';
-import 'package:quizparan/features/quiz/cubits/quiz_category_cubit.dart';
-import 'package:quizparan/features/quiz/cubits/unlock_premium_category_cubit.dart';
-import 'package:quizparan/ui/widgets/circular_progress_container.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/profile_management/cubits/update_score_and_coins_cubit.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/features/profile_management/profile_management_repository.dart';
+import 'package:quizapp/features/quiz/cubits/quiz_category_cubit.dart';
+import 'package:quizapp/features/quiz/cubits/unlock_premium_category_cubit.dart';
+import 'package:quizapp/ui/widgets/circular_progress_container.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 /// [_UnlockPremiumAlertDialog] handles showing the unlock confirmation dialog.
 ///

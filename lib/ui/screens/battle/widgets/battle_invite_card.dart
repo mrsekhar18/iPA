@@ -1,11 +1,11 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
-import 'package:quizparan/commons/widgets/custom_image.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/ui/widgets/waves_clipper.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
 import 'package:intl/intl.dart';
+import 'package:quizapp/commons/widgets/custom_image.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/ui/widgets/waves_clipper.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class BattleInviteCard extends StatelessWidget {
   const BattleInviteCard({

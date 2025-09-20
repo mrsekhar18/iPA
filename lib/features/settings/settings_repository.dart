@@ -1,6 +1,6 @@
-import 'package:quizparan/features/settings/settings_local_data_source.dart';
-import 'package:quizparan/features/system_config/model/system_language.dart';
-import 'package:quizparan/features/system_config/system_config_remote_data_source.dart';
+import 'package:quizapp/features/settings/settings_local_data_source.dart';
+import 'package:quizapp/features/system_config/model/system_language.dart';
+import 'package:quizapp/features/system_config/system_config_remote_data_source.dart';
 
 class SettingsRepository {
   factory SettingsRepository() {

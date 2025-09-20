@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/quiz/multi_match/models/multi_match_answer_type_enum.dart';
-import 'package:quizparan/features/quiz/multi_match/models/multi_match_question_model.dart';
-import 'package:quizparan/features/quiz/multi_match/repositories/multi_match_repository.dart';
+import 'package:quizapp/features/quiz/multi_match/models/multi_match_answer_type_enum.dart';
+import 'package:quizapp/features/quiz/multi_match/models/multi_match_question_model.dart';
+import 'package:quizapp/features/quiz/multi_match/repositories/multi_match_repository.dart';
 
 part 'multi_match_fetch_questions_state.dart';
 

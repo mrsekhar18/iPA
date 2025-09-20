@@ -1,7 +1,7 @@
 //State
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/settings/settings_model.dart';
-import 'package:quizparan/features/settings/settings_repository.dart';
+import 'package:quizapp/features/settings/settings_model.dart';
+import 'package:quizapp/features/settings/settings_repository.dart';
 
 class SettingsState {
   SettingsState({this.settingsModel});

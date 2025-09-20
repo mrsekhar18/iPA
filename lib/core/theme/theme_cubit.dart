@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/settings/settings_local_data_source.dart';
+import 'package:quizapp/features/settings/settings_local_data_source.dart';
 
 class ThemeCubit extends Cubit<Brightness> {
   ThemeCubit(this.settingsLocalDataSource)

@@ -1,5 +1,5 @@
-import 'package:quizparan/features/coin_history/coin_history_remote_data_source.dart';
-import 'package:quizparan/features/coin_history/models/coin_history.dart';
+import 'package:quizapp/features/coin_history/coin_history_remote_data_source.dart';
+import 'package:quizapp/features/coin_history/models/coin_history.dart';
 
 class CoinHistoryRepository {
   factory CoinHistoryRepository() {

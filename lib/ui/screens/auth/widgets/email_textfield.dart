@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/utils/validators.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/utils/validators.dart';
 
 class EmailTextField extends StatelessWidget {
   const EmailTextField({required this.controller, super.key});

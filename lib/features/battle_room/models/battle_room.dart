@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:quizparan/features/quiz/models/user_battle_room_details.dart';
+import 'package:quizapp/features/quiz/models/user_battle_room_details.dart';
 
 class BattleRoom {
   BattleRoom({

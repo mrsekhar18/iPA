@@ -4,13 +4,13 @@ import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/core/routes/routes.dart';
-import 'package:quizparan/features/battle_room/battle_room_repository.dart';
-import 'package:quizparan/features/battle_room/models/battle_room.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
-import 'package:quizparan/features/quiz/models/user_battle_room_details.dart';
-import 'package:quizparan/features/system_config/model/room_code_char_type.dart';
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/core/routes/routes.dart';
+import 'package:quizapp/features/battle_room/battle_room_repository.dart';
+import 'package:quizapp/features/battle_room/models/battle_room.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
+import 'package:quizapp/features/quiz/models/user_battle_room_details.dart';
+import 'package:quizapp/features/system_config/model/room_code_char_type.dart';
 
 @immutable
 class BattleRoomState {}

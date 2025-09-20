@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/bookmark/bookmark_repository.dart';
-import 'package:quizparan/features/quiz/models/question.dart';
+import 'package:quizapp/features/bookmark/bookmark_repository.dart';
+import 'package:quizapp/features/quiz/models/question.dart';
 
 @immutable
 abstract class BookmarkState {}

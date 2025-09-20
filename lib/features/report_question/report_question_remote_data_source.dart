@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/features/report_question/report_question_exception.dart';
-import 'package:quizparan/utils/api_utils.dart';
 import 'package:http/http.dart' as http;
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/report_question/report_question_exception.dart';
+import 'package:quizapp/utils/api_utils.dart';
 
 class ReportQuestionRemoteDataSource {
   Future<void> reportQuestion({

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
+import 'package:quizapp/core/core.dart';
 
 class SubcategoriesLevelChip extends StatefulWidget {
   const SubcategoriesLevelChip({

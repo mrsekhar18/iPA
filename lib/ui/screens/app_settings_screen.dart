@@ -5,13 +5,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/system_config/cubits/app_settings_cubit.dart';
-import 'package:quizparan/features/system_config/system_config_repository.dart';
-import 'package:quizparan/ui/widgets/custom_appbar.dart';
-import 'package:quizparan/ui/widgets/error_container.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/system_config/cubits/app_settings_cubit.dart';
+import 'package:quizapp/features/system_config/system_config_repository.dart';
+import 'package:quizapp/ui/widgets/custom_appbar.dart';
+import 'package:quizapp/ui/widgets/error_container.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// AppSettingsScreen shows app setting details like about us,

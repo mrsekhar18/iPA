@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:quizparan/ui/screens/battle/widgets/rectangle_user_profile_container.dart';
-import 'package:quizparan/utils/extensions.dart';
+import 'package:quizapp/ui/screens/battle/widgets/rectangle_user_profile_container.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class RectangleTimerProgressContainer extends StatefulWidget {
   const RectangleTimerProgressContainer({

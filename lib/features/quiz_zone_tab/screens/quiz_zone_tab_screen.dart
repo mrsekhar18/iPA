@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/auth/cubits/auth_cubit.dart';
-import 'package:quizparan/features/quiz/cubits/quiz_category_cubit.dart';
-import 'package:quizparan/features/quiz/models/category.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/ui/screens/quiz/levels_screen.dart';
-import 'package:quizparan/ui/screens/quiz/subcategory_and_level_screen.dart';
-import 'package:quizparan/ui/widgets/already_logged_in_dialog.dart';
-import 'package:quizparan/ui/widgets/circular_progress_container.dart';
-import 'package:quizparan/ui/widgets/custom_appbar.dart';
-import 'package:quizparan/ui/widgets/error_container.dart';
-import 'package:quizparan/ui/widgets/premium_category_access_badge.dart';
-import 'package:quizparan/ui/widgets/unlock_premium_category_dialog.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/auth/cubits/auth_cubit.dart';
+import 'package:quizapp/features/quiz/cubits/quiz_category_cubit.dart';
+import 'package:quizapp/features/quiz/models/category.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/ui/screens/quiz/levels_screen.dart';
+import 'package:quizapp/ui/screens/quiz/subcategory_and_level_screen.dart';
+import 'package:quizapp/ui/widgets/already_logged_in_dialog.dart';
+import 'package:quizapp/ui/widgets/circular_progress_container.dart';
+import 'package:quizapp/ui/widgets/custom_appbar.dart';
+import 'package:quizapp/ui/widgets/error_container.dart';
+import 'package:quizapp/ui/widgets/premium_category_access_badge.dart';
+import 'package:quizapp/ui/widgets/unlock_premium_category_dialog.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class QuizZoneTabScreen extends StatefulWidget {
   const QuizZoneTabScreen({super.key});

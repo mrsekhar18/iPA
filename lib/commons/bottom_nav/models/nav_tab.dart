@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/commons/bottom_nav/models/nav_tab_type_enum.dart';
+import 'package:quizapp/commons/bottom_nav/models/nav_tab_type_enum.dart';
 
 /// Represents a navigation tab in the dashboard.
 ///

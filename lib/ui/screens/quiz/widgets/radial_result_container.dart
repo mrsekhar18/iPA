@@ -1,8 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/constants/fonts.dart';
-import 'package:quizparan/utils/normalize_number.dart';
+import 'package:quizapp/core/constants/fonts.dart';
+import 'package:quizapp/utils/normalize_number.dart';
 
 class RadialPercentageResultContainer extends StatefulWidget {
   //respect to width

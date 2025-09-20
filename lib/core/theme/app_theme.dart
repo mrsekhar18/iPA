@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
+import 'package:quizapp/core/core.dart';
 
 final appThemeData = <Brightness, ThemeData>{
   Brightness.light: ThemeData(

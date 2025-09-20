@@ -1,18 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/quiz/cubits/quiz_category_cubit.dart';
-import 'package:quizparan/features/quiz/cubits/subcategory_cubit.dart';
-import 'package:quizparan/features/quiz/models/category.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
-import 'package:quizparan/ui/widgets/already_logged_in_dialog.dart';
-import 'package:quizparan/ui/widgets/custom_appbar.dart';
-import 'package:quizparan/ui/widgets/custom_rounded_button.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/quiz/cubits/quiz_category_cubit.dart';
+import 'package:quizapp/features/quiz/cubits/subcategory_cubit.dart';
+import 'package:quizapp/features/quiz/models/category.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
+import 'package:quizapp/ui/widgets/already_logged_in_dialog.dart';
+import 'package:quizapp/ui/widgets/custom_appbar.dart';
+import 'package:quizapp/ui/widgets/custom_rounded_button.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class SelfChallengeScreen extends StatefulWidget {
   const SelfChallengeScreen({super.key});

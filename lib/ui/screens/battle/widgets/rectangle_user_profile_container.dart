@@ -1,10 +1,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/features/quiz/models/user_battle_room_details.dart';
-import 'package:quizparan/ui/screens/battle/widgets/rectangle_timer_progress_container.dart';
-import 'package:quizparan/utils/extensions.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/features/quiz/models/user_battle_room_details.dart';
+import 'package:quizapp/ui/screens/battle/widgets/rectangle_timer_progress_container.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class RectangleUserProfileContainer extends StatelessWidget {
   const RectangleUserProfileContainer({

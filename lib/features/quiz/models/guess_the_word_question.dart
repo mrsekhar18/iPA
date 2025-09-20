@@ -1,6 +1,6 @@
-import 'package:quizparan/features/auth/auth_local_data_source.dart';
-import 'package:quizparan/features/quiz/models/correct_answer.dart';
-import 'package:quizparan/utils/answer_encryption.dart';
+import 'package:quizapp/features/auth/auth_local_data_source.dart';
+import 'package:quizapp/features/quiz/models/correct_answer.dart';
+import 'package:quizapp/utils/answer_encryption.dart';
 
 class GuessTheWordQuestion {
   GuessTheWordQuestion({

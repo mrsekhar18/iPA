@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/commons/bottom_nav/models/nav_tab.dart';
-import 'package:quizparan/commons/widgets/custom_image.dart';
-import 'package:quizparan/core/core.dart';
+import 'package:quizapp/commons/bottom_nav/models/nav_tab.dart';
+import 'package:quizapp/commons/widgets/custom_image.dart';
+import 'package:quizapp/core/core.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({

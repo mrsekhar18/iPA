@@ -3,14 +3,14 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:quizparan/core/constants/assets_constants.dart';
-import 'package:quizparan/features/battle_room/cubits/battle_room_cubit.dart';
-import 'package:quizparan/features/battle_room/cubits/message_cubit.dart';
-import 'package:quizparan/features/battle_room/cubits/multi_user_battle_room_cubit.dart';
-import 'package:quizparan/features/battle_room/models/message.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/utils/extensions.dart';
+import 'package:quizapp/core/constants/assets_constants.dart';
+import 'package:quizapp/features/battle_room/cubits/battle_room_cubit.dart';
+import 'package:quizapp/features/battle_room/cubits/message_cubit.dart';
+import 'package:quizapp/features/battle_room/cubits/multi_user_battle_room_cubit.dart';
+import 'package:quizapp/features/battle_room/models/message.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class MessageContainer extends StatelessWidget {
   const MessageContainer({

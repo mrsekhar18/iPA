@@ -4,17 +4,17 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/leaderboard/cubit/leaderboard_all_time_cubit.dart';
-import 'package:quizparan/features/leaderboard/cubit/leaderboard_daily_cubit.dart';
-import 'package:quizparan/features/leaderboard/cubit/leaderboard_monthly_cubit.dart';
-import 'package:quizparan/ui/widgets/already_logged_in_dialog.dart';
-import 'package:quizparan/ui/widgets/circular_progress_container.dart';
-import 'package:quizparan/ui/widgets/custom_appbar.dart';
-import 'package:quizparan/ui/widgets/error_container.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/leaderboard/cubit/leaderboard_all_time_cubit.dart';
+import 'package:quizapp/features/leaderboard/cubit/leaderboard_daily_cubit.dart';
+import 'package:quizapp/features/leaderboard/cubit/leaderboard_monthly_cubit.dart';
+import 'package:quizapp/ui/widgets/already_logged_in_dialog.dart';
+import 'package:quizapp/ui/widgets/circular_progress_container.dart';
+import 'package:quizapp/ui/widgets/custom_appbar.dart';
+import 'package:quizapp/ui/widgets/error_container.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class LeaderBoardScreen extends StatefulWidget {
   const LeaderBoardScreen({super.key});

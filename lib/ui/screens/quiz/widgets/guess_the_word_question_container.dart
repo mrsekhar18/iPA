@@ -5,20 +5,20 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/ads/blocs/rewarded_ad_cubit.dart';
-import 'package:quizparan/features/profile_management/cubits/update_score_and_coins_cubit.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/features/quiz/models/guess_the_word_question.dart';
-import 'package:quizparan/features/quiz/utils/quiz_utils.dart';
-import 'package:quizparan/features/settings/settings_cubit.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
-import 'package:quizparan/features/system_config/model/answer_mode.dart';
-import 'package:quizparan/ui/widgets/circular_progress_container.dart';
-import 'package:quizparan/ui/widgets/watch_reward_ad_dialog.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/ads/blocs/rewarded_ad_cubit.dart';
+import 'package:quizapp/features/profile_management/cubits/update_score_and_coins_cubit.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/features/quiz/models/guess_the_word_question.dart';
+import 'package:quizapp/features/quiz/utils/quiz_utils.dart';
+import 'package:quizapp/features/settings/settings_cubit.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
+import 'package:quizapp/features/system_config/model/answer_mode.dart';
+import 'package:quizapp/ui/widgets/circular_progress_container.dart';
+import 'package:quizapp/ui/widgets/watch_reward_ad_dialog.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 class GuessTheWordQuestionContainer extends StatefulWidget {
   const GuessTheWordQuestionContainer({

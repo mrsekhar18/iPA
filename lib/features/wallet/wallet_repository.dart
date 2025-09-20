@@ -1,6 +1,6 @@
-import 'package:quizparan/features/wallet/models/payment_request.dart';
-import 'package:quizparan/features/wallet/wallet_exception.dart';
-import 'package:quizparan/features/wallet/wallet_remote_data_source.dart';
+import 'package:quizapp/features/wallet/models/payment_request.dart';
+import 'package:quizapp/features/wallet/wallet_exception.dart';
+import 'package:quizapp/features/wallet/wallet_remote_data_source.dart';
 
 class WalletRepository {
   factory WalletRepository() {

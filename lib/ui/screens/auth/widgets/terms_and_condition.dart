@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/ui/screens/app_settings_screen.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/ui/screens/app_settings_screen.dart';
 
 class TermsAndCondition extends StatelessWidget {
   const TermsAndCondition({super.key});

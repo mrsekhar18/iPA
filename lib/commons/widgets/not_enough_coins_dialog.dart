@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/system_config/cubits/system_config_cubit.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/system_config/cubits/system_config_cubit.dart';
 
 /// A dialog that prompts users to purchase more coins when they don't have enough
 /// coins to access certain features.

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/utils/extensions.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizapp/utils/extensions.dart';
 
 class CustomRoundedButton extends StatelessWidget {
   const CustomRoundedButton({

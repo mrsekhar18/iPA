@@ -3,12 +3,12 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/constants/constants.dart';
-import 'package:quizparan/features/in_app_purchase/in_app_purchase_repo.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 //
 // ignore: depend_on_referenced_packages
 import 'package:in_app_purchase_android/in_app_purchase_android.dart';
+import 'package:quizapp/core/constants/constants.dart';
+import 'package:quizapp/features/in_app_purchase/in_app_purchase_repo.dart';
 
 abstract class InAppPurchaseState {}
 

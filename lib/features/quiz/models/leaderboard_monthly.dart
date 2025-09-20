@@ -1,4 +1,4 @@
-import 'package:quizparan/core/constants/api_body_parameter_labels.dart';
+import 'package:quizapp/core/constants/api_body_parameter_labels.dart';
 
 class LeaderBoardMonthly {
   const LeaderBoardMonthly({

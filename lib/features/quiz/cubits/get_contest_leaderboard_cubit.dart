@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/quiz/models/contest_leaderboard.dart';
-import 'package:quizparan/features/quiz/quiz_repository.dart';
+import 'package:quizapp/features/quiz/models/contest_leaderboard.dart';
+import 'package:quizapp/features/quiz/quiz_repository.dart';
 
 sealed class GetContestLeaderboardState {
   const GetContestLeaderboardState();

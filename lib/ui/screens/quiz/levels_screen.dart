@@ -4,20 +4,20 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/core/core.dart';
-import 'package:quizparan/features/ads/blocs/banner_ad_cubit.dart';
-import 'package:quizparan/features/ads/widgets/banner_ad_container.dart';
-import 'package:quizparan/features/profile_management/cubits/user_details_cubit.dart';
-import 'package:quizparan/features/quiz/cubits/quiz_category_cubit.dart';
-import 'package:quizparan/features/quiz/cubits/unlocked_level_cubit.dart';
-import 'package:quizparan/features/quiz/models/category.dart';
-import 'package:quizparan/features/quiz/models/quiz_type.dart';
-import 'package:quizparan/ui/screens/quiz/multi_match/screens/multi_match_quiz_screen.dart';
-import 'package:quizparan/ui/screens/quiz/widgets/subcategories_levels_chip.dart';
-import 'package:quizparan/ui/widgets/all.dart';
-import 'package:quizparan/utils/extensions.dart';
-import 'package:quizparan/utils/ui_utils.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quizapp/core/core.dart';
+import 'package:quizapp/features/ads/blocs/banner_ad_cubit.dart';
+import 'package:quizapp/features/ads/widgets/banner_ad_container.dart';
+import 'package:quizapp/features/profile_management/cubits/user_details_cubit.dart';
+import 'package:quizapp/features/quiz/cubits/quiz_category_cubit.dart';
+import 'package:quizapp/features/quiz/cubits/unlocked_level_cubit.dart';
+import 'package:quizapp/features/quiz/models/category.dart';
+import 'package:quizapp/features/quiz/models/quiz_type.dart';
+import 'package:quizapp/ui/screens/quiz/multi_match/screens/multi_match_quiz_screen.dart';
+import 'package:quizapp/ui/screens/quiz/widgets/subcategories_levels_chip.dart';
+import 'package:quizapp/ui/widgets/all.dart';
+import 'package:quizapp/utils/extensions.dart';
+import 'package:quizapp/utils/ui_utils.dart';
 
 final class LevelsScreenArgs extends RouteArgs {
   const LevelsScreenArgs({

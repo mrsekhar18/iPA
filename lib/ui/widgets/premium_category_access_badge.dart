@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizparan/commons/commons.dart';
-import 'package:quizparan/core/constants/assets_constants.dart';
+import 'package:quizapp/commons/commons.dart';
+import 'package:quizapp/core/constants/assets_constants.dart';
 
 /// Renders a premium category access badge icon.
 ///

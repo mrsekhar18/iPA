@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quizparan/features/statistic/models/statistic_model.dart';
-import 'package:quizparan/features/statistic/statistic_repository.dart';
+import 'package:quizapp/features/statistic/models/statistic_model.dart';
+import 'package:quizapp/features/statistic/statistic_repository.dart';
 
 @immutable
 abstract class StatisticState {}

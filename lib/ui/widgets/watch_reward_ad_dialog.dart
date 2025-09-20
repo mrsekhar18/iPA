@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:quizparan/core/core.dart';
+import 'package:quizapp/core/core.dart';
 
 class WatchRewardAdDialog extends StatelessWidget {
   const WatchRewardAdDialog({
